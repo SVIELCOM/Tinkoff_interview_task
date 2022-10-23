@@ -44,8 +44,8 @@ int main()
 	printf("Output string is: ");
 	for (int i = 0; i <= top; i++)
 	{
-		printf("/");
-		printf("%s", stack[i]);
+		//printf("/");
+		printf("/%s", stack[i]);
 	}
 	printf("\n");
 	return 0;
